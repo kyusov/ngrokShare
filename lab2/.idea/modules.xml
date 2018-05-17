@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/isu.ru.iml" filepath="$PROJECT_DIR$/.idea/modules/isu.ru.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/isu.ru_main.iml" filepath="$PROJECT_DIR$/.idea/modules/isu.ru_main.iml" group="isu.ru" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/isu.ru_test.iml" filepath="$PROJECT_DIR$/.idea/modules/isu.ru_test.iml" group="isu.ru" />
+    </modules>
+  </component>
+</project>

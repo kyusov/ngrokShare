@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="185.0" prefWidth="385.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.isu.math.yusov.myfirstapp.controllers.MainController">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="184.0" prefWidth="242.0" VBox.vgrow="ALWAYS">
+      <children>
+            <Button layoutX="36.0" layoutY="115.0" mnemonicParsing="false" onAction="#buttonInClick" prefHeight="33.0" prefWidth="316.0" text="Войти" textFill="#1b1a1a" />
+            <Label layoutX="36.0" layoutY="49.0" text="Логин:" />
+            <Accordion layoutX="128.0" layoutY="63.0" />
+            <TextField disable="true" layoutX="220.0" layoutY="45.0" prefHeight="17.0" prefWidth="131.0" promptText="demo" />
+            <Label layoutX="36.0" layoutY="82.0" text="Пароль:" />
+            <TextField disable="true" layoutX="220.0" layoutY="78.0" prefHeight="17.0" prefWidth="131.0" promptText="demo">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </TextField>
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>

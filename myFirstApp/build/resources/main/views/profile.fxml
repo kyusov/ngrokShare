@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="238.0" prefWidth="251.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.isu.math.yusov.myfirstapp.controllers.MainController">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="343.0" prefWidth="640.0" VBox.vgrow="ALWAYS">
+         <children>
+            <Button layoutX="19.0" layoutY="184.0" mnemonicParsing="false" onAction="#buttonSelect" prefHeight="32.0" prefWidth="208.0" text="Выбрать" />
+            <RadioButton fx:id="radio3" layoutX="38.0" layoutY="74.0" mnemonicParsing="false" onAction="#radioClick" text="Поставщик">
+               <toggleGroup>
+                  <ToggleGroup fx:id="g1" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton fx:id="radio5" layoutX="38.0" layoutY="134.0" mnemonicParsing="false" onAction="#radioClick" text="Сотрудник главного офиса" toggleGroup="$g1" />
+            <RadioButton fx:id="radio2" layoutX="38.0" layoutY="44.0" mnemonicParsing="false" onAction="#radioClick" text="Сотрудник отдела кадров" toggleGroup="$g1" />
+            <RadioButton fx:id="radio1" layoutX="38.0" layoutY="14.0" mnemonicParsing="false" onAction="#radioClick" text="Сотрудник бухгалтерии" toggleGroup="$g1" />
+            <RadioButton fx:id="radio4" layoutX="38.0" layoutY="104.0" mnemonicParsing="false" onAction="#radioClick" text="Покупатель" toggleGroup="$g1" />
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>

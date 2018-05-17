@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="311.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.isu.math.yusov.myfirstapp.controllers.ProviderController">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="319.0" prefWidth="640.0" VBox.vgrow="ALWAYS">
+         <children>
+            <TableView layoutX="15.0" layoutY="57.0" prefHeight="200.0" prefWidth="612.0">
+              <columns>
+                <TableColumn prefWidth="307.0" text="Поставщик" />
+                <TableColumn minWidth="0.0" prefWidth="321.0" text="Цена" />
+              </columns>
+            </TableView>
+            <Label layoutX="194.0" layoutY="7.0" text="Реестр поставщиков" textAlignment="CENTER">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Label>
+            <Button layoutX="14.0" layoutY="264.0" mnemonicParsing="false" onAction="#addReestr" prefHeight="25.0" prefWidth="612.0" text="Добавиться в реестр" />
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>
